@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'my-icon';
+  src:  url('fonts/my-icon.eot?xqs6bm');
+  src:  url('fonts/my-icon.eot?xqs6bm#iefix') format('embedded-opentype'),
+    url('fonts/my-icon.ttf?xqs6bm') format('truetype'),
+    url('fonts/my-icon.woff?xqs6bm') format('woff'),
+    url('fonts/my-icon.svg?xqs6bm#my-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="x-icon-"], [class*=" x-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'my-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.x-icon-home:before {
+  content: "\e900";
+  color: rgb(233, 241, 255);
+}
+
+.x-icon-left:before {
+  content: "\e905";
+  color: rgb(233, 241, 255);
+}
+
+.x-icon-right:before {
+  content: "\e908";
+  color: rgb(233, 241, 255);
+}
