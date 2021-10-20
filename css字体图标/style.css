@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'my-icon';
-  src:  url('fonts/my-icon.eot?xqs6bm');
-  src:  url('fonts/my-icon.eot?xqs6bm#iefix') format('embedded-opentype'),
-    url('fonts/my-icon.ttf?xqs6bm') format('truetype'),
-    url('fonts/my-icon.woff?xqs6bm') format('woff'),
-    url('fonts/my-icon.svg?xqs6bm#my-icon') format('svg');
+  font-family: 'myicon';
+  src:  url('fonts/myicon.eot?9z7shp');
+  src:  url('fonts/myicon.eot?9z7shp#iefix') format('embedded-opentype'),
+    url('fonts/myicon.ttf?9z7shp') format('truetype'),
+    url('fonts/myicon.woff?9z7shp') format('woff'),
+    url('fonts/myicon.svg?9z7shp#myicon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="x-icon-"], [class*=" x-icon-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'my-icon' !important;
+  font-family: 'myicon' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -25,17 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.x-icon-home:before {
+.icon-down:before {
   content: "\e900";
-  color: rgb(233, 241, 255);
+  color: #1296db;
 }
-
-.x-icon-left:before {
-  content: "\e905";
-  color: rgb(233, 241, 255);
+.icon-home:before {
+  content: "\e901";
+  color: #1296db;
 }
-
-.x-icon-right:before {
-  content: "\e908";
-  color: rgb(233, 241, 255);
+.icon-right:before {
+  content: "\e902";
+  color: #1296db;
 }
